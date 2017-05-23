@@ -1,0 +1,10 @@
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+touch readme.md
+vim readme.md
+git status
+git add .
+git commit -m "Added readme.md"
+git remote add origin https://github.com/gitRobV/GitHubRepoAssignment.git
+git push -u origin master
